@@ -23,7 +23,7 @@ public class MobDeathEvent implements ModInitializer {
     }
 
     @FunctionalInterface
-    interface Callback {
+    public interface Callback {
         void onEntityDamaged(LivingEntity entity, DamageSource source);
     }
 
